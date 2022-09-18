@@ -32,16 +32,13 @@ fn euler_2() -> i32 {
         fibonacci.push(value);
         i += 1;
     }
-    println!("{:?}", fibonacci);
-    println!("{}", total);
     return total;
 }
 
 #[cfg(test)]
 mod tests {
-    use crate::euler::euler_2;
-
     use super::euler_1;
+    use super::euler_2;
 
     #[test]
     fn test_euler_1() {
