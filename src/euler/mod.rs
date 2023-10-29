@@ -40,6 +40,8 @@ mod tests {
     use super::euler_1;
     use super::euler_2;
 
+    print!("hey".to_string());
+
     #[test]
     fn test_euler_1() {
         let result = euler_1();
